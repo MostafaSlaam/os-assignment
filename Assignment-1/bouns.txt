@@ -1,0 +1,28 @@
+
+	char cmds[20][1000];
+	char temp[1000];
+	int i;
+	int j;
+	int s1;
+	for(i=0;i<20;i++)
+	{
+		readline("",temp);
+		if(strncmp(temp,"$",1)==0)
+		{
+			break;
+		}
+		else
+		{
+			int s1=strlen(temp);
+			for(j=0;j<s1;j++)
+			{
+				cmds[i][j]=temp[j];
+			}
+		}
+	}
+
+	int f;
+	for(f=0;f<i;f++)
+	{
+		execute_command(cmds[f]);
+	}

@@ -1,0 +1,8 @@
+1- Open the form, You'll find your ID and email.
+2- Press continue.
+3- You'll find your old .c & .h codes.
+4- Remove them (make the text fields empty).
+5- Press Submit.
+6- Edit the response again, You'll find your ID and email.
+7- Press continue.
+8- Paste your .c and .h and submit will work.
